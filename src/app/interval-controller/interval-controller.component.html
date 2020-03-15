@@ -1,0 +1,17 @@
+<div class="row justify-content-center">
+    <div class="col-sm col-md-2">
+        <div class="form-group">
+            <button type="button" class="btn btn-block btn-primary" (click)="onStart()" [disabled]="!stopInetrval">Start</button>
+        </div>
+    </div>
+    <div class="col-sm col-md-2">
+        <div class="form-group">
+            <button type="button" class="btn btn-block btn-secondary" (click)="onStop()" [disabled]="stopInetrval">Stop</button>
+        </div>
+    </div>
+    <div class="col-sm col-md-2">
+        <div class="form-group">
+            <button type="button" class="btn btn-block btn-success" (click)="onReset()" [disabled]="numberEmited == 0">Reset</button>
+        </div>
+    </div>
+</div>
