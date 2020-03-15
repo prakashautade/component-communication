@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'component-communication';
   emitedNumber = 0;
 
-  onInterbval(event: number) {
+  onInterval(event: number) {
     this.emitedNumber = event;
   }
 
